@@ -10,7 +10,7 @@ def format_items(input_file_path, output_file_path):
         except FileNotFoundError:
             with open(input_file_path, 'w') as file:
                 file.write('')
-            return "Input file not found. A new file has been created.\nInput your current items into input.lua."
+            return "Input file not found. A new file has been created.\nInput your current items into input.txt."
 
         modified_lines = [format_line(line) for line in lines]
 
