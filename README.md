@@ -1,6 +1,9 @@
 # qbcore-item-convert
 A simple python script to convert the old items to the new qbcore shared item format!
 
+## Requirements
+Python - https://www.python.org/downloads/windows/
+
 ## 1. INPUT THE OLD ITEMS INTO THE input.txt
 
 ## 2. RUN THE PYTHON FILE
